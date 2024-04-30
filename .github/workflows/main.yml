@@ -3,7 +3,11 @@ name: Simple Workflow
 on:
   push:
     branches:
-      - main
+
+      - master
+      - master-staging
+      - master-production
+    
 
 jobs:
   build:
